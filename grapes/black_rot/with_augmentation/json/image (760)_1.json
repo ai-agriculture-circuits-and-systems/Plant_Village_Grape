@@ -1,0 +1,107 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 118.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Rot 3021.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 3856684947,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (760).JPG",
+      "size": 16203,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Rot 3021.JPG",
+      "pvc_filename": "a76a46f8-8949-4e76-9f88-10b088cc45fd___FAM_B.Rot 3021.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 6227563957,
+      "image_id": 3856684947,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 119,
+      "bbox": [
+        99,
+        229,
+        12,
+        19
+      ]
+    },
+    {
+      "id": 4461939957,
+      "image_id": 3856684947,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 118,
+      "bbox": [
+        124,
+        214,
+        15,
+        26
+      ]
+    },
+    {
+      "id": 5743742957,
+      "image_id": 3856684947,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 153,
+      "bbox": [
+        153,
+        146,
+        22,
+        19
+      ]
+    },
+    {
+      "id": 9939624957,
+      "image_id": 3856684947,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 10331,
+      "bbox": [
+        19,
+        0,
+        223,
+        151
+      ]
+    },
+    {
+      "id": 7425235957,
+      "image_id": 3856684947,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 114,
+      "bbox": [
+        140,
+        106,
+        18,
+        18
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

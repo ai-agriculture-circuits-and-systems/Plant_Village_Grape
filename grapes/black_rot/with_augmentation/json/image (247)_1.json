@@ -1,0 +1,146 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 280.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Rot 5049.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 1921652723,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (247).JPG",
+      "size": 16083,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Rot 5049.JPG",
+      "pvc_filename": "08a5a9c9-6676-4125-8738-535d6479084a___FAM_B.Rot 5049.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2700601730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 975,
+      "bbox": [
+        16,
+        43,
+        35,
+        165
+      ]
+    },
+    {
+      "id": 1787157730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 185,
+      "bbox": [
+        201,
+        175,
+        21,
+        17
+      ]
+    },
+    {
+      "id": 2652779730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 334,
+      "bbox": [
+        143,
+        134,
+        22,
+        32
+      ]
+    },
+    {
+      "id": 1260410730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 131,
+      "bbox": [
+        154,
+        108,
+        17,
+        17
+      ]
+    },
+    {
+      "id": 7470700730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 164,
+      "bbox": [
+        98,
+        87,
+        18,
+        20
+      ]
+    },
+    {
+      "id": 7498456730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 353,
+      "bbox": [
+        128,
+        38,
+        41,
+        50
+      ]
+    },
+    {
+      "id": 9453745730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 113,
+      "bbox": [
+        47,
+        48,
+        14,
+        20
+      ]
+    },
+    {
+      "id": 3326731730,
+      "image_id": 1921652723,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 124,
+      "bbox": [
+        48,
+        15,
+        17,
+        20
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

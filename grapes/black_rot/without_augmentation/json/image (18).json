@@ -1,0 +1,81 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 229.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Rot 3469.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 5254330851,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (18).JPG",
+      "size": 14614,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Rot 3469.JPG",
+      "pvc_filename": "0d2c5ad5-1a2d-44f9-9be5-1aef9a51fb95___FAM_B.Rot 3469.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7357791862,
+      "image_id": 5254330851,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 7311,
+      "bbox": [
+        48,
+        129,
+        181,
+        113
+      ]
+    },
+    {
+      "id": 5941179862,
+      "image_id": 5254330851,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 135,
+      "bbox": [
+        144,
+        96,
+        18,
+        21
+      ]
+    },
+    {
+      "id": 1760141862,
+      "image_id": 5254330851,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 122,
+      "bbox": [
+        212,
+        73,
+        19,
+        17
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}
