@@ -1,0 +1,569 @@
+{
+  "info": {
+    "year": 2025,
+    "version": "1.0.0",
+    "description": "Plant Village Grape grapes val split",
+    "url": "https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset"
+  },
+  "images": [
+    {
+      "id": 1,
+      "file_name": "grapes/healthy/images/image (157)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 2,
+      "file_name": "grapes/healthy/images/image (160).JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 3,
+      "file_name": "grapes/healthy/images/image (186)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 4,
+      "file_name": "grapes/healthy/images/image (190).JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 5,
+      "file_name": "grapes/healthy/images/image (243)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 6,
+      "file_name": "grapes/healthy/images/image (271)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 7,
+      "file_name": "grapes/healthy/images/image (312)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 8,
+      "file_name": "grapes/healthy/images/image (345)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 9,
+      "file_name": "grapes/healthy/images/image (358)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 10,
+      "file_name": "grapes/healthy/images/image (50)_1.JPG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": 11,
+      "file_name": "grapes/healthy/images/image (82).JPG",
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        30.0,
+        14.0,
+        73.0,
+        83.0
+      ],
+      "area": 6059.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        123.0,
+        19.0,
+        45.0,
+        61.0
+      ],
+      "area": 2745.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        44.0,
+        175.0,
+        112.0,
+        63.0
+      ],
+      "area": 7056.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        230.0,
+        106.0,
+        11.0,
+        51.0
+      ],
+      "area": 561.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        72.0,
+        115.0,
+        21.0,
+        28.0
+      ],
+      "area": 588.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        86.0,
+        90.0,
+        25.0,
+        26.0
+      ],
+      "area": 650.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        216.0,
+        69.0,
+        20.0,
+        32.0
+      ],
+      "area": 640.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        77.0,
+        33.0,
+        50.0,
+        48.0
+      ],
+      "area": 2400.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [
+        156.0,
+        7.0,
+        71.0,
+        58.0
+      ],
+      "area": 4118.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        89.0,
+        12.0,
+        151.0,
+        227.0
+      ],
+      "area": 34277.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        75.0,
+        159.0,
+        36.0,
+        51.0
+      ],
+      "area": 1836.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        23.0,
+        142.0,
+        23.0,
+        46.0
+      ],
+      "area": 1058.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        16.0,
+        70.0,
+        46.0,
+        44.0
+      ],
+      "area": 2024.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [
+        63.0,
+        31.0,
+        34.0,
+        66.0
+      ],
+      "area": 2244.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        204.0,
+        62.0,
+        31.0
+      ],
+      "area": 1922.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 16,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        181.0,
+        9.0,
+        71.0,
+        189.0
+      ],
+      "area": 13419.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 17,
+      "image_id": 4,
+      "category_id": 1,
+      "bbox": [
+        68.0,
+        16.0,
+        41.0,
+        64.0
+      ],
+      "area": 2624.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 18,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        80.0,
+        192.0,
+        138.0,
+        60.0
+      ],
+      "area": 8280.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 19,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        131.0,
+        57.0,
+        13.0,
+        23.0
+      ],
+      "area": 299.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        103.0,
+        144.0,
+        133.0,
+        107.0
+      ],
+      "area": 14231.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 21,
+      "image_id": 6,
+      "category_id": 1,
+      "bbox": [
+        40.0,
+        163.0,
+        32.0,
+        16.0
+      ],
+      "area": 512.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 22,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        132.0,
+        22.0,
+        23.0,
+        68.0
+      ],
+      "area": 1564.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 23,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        220.0,
+        61.0,
+        28.0,
+        26.0
+      ],
+      "area": 728.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 24,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        198.0,
+        30.0,
+        35.0,
+        25.0
+      ],
+      "area": 875.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 25,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        47.0,
+        167.0,
+        93.0,
+        83.0
+      ],
+      "area": 7719.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 26,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        166.0,
+        166.0,
+        54.0,
+        26.0
+      ],
+      "area": 1404.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 27,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        221.0,
+        180.0,
+        16.0,
+        40.0
+      ],
+      "area": 640.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 28,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        219.0,
+        132.0,
+        12.0,
+        18.0
+      ],
+      "area": 216.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 29,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        214.0,
+        71.0,
+        37.0,
+        57.0
+      ],
+      "area": 2109.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 30,
+      "image_id": 9,
+      "category_id": 1,
+      "bbox": [
+        54.0,
+        81.0,
+        33.0,
+        14.0
+      ],
+      "area": 462.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 31,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        48.0,
+        4.0,
+        191.0,
+        245.0
+      ],
+      "area": 46795.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 32,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        5.0,
+        135.0,
+        68.0,
+        71.0
+      ],
+      "area": 4828.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 33,
+      "image_id": 10,
+      "category_id": 1,
+      "bbox": [
+        12.0,
+        64.0,
+        36.0,
+        65.0
+      ],
+      "area": 2340.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 34,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        170.0,
+        233.0,
+        70.0,
+        20.0
+      ],
+      "area": 1400.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 35,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        121.0,
+        228.0,
+        46.0,
+        20.0
+      ],
+      "area": 920.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 36,
+      "image_id": 11,
+      "category_id": 1,
+      "bbox": [
+        86.0,
+        221.0,
+        36.0,
+        18.0
+      ],
+      "area": 648.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "healthy",
+      "supercategory": "grape"
+    },
+    {
+      "id": 2,
+      "name": "black_rot",
+      "supercategory": "grape"
+    },
+    {
+      "id": 3,
+      "name": "esca",
+      "supercategory": "grape"
+    },
+    {
+      "id": 4,
+      "name": "leaf_blight",
+      "supercategory": "grape"
+    }
+  ],
+  "licenses": []
+}
