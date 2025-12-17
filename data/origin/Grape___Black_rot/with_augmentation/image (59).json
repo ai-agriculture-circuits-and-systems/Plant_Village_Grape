@@ -1,0 +1,126 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 2894379708,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (59).JPG",
+      "size": 21007,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9382164709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 1037,
+      "bbox": [
+        104,
+        169,
+        58,
+        73
+      ]
+    },
+    {
+      "id": 1485796709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 1012,
+      "bbox": [
+        138,
+        117,
+        56,
+        99
+      ]
+    },
+    {
+      "id": 8833501709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 1691,
+      "bbox": [
+        21,
+        40,
+        80,
+        165
+      ]
+    },
+    {
+      "id": 8090485709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 100,
+      "bbox": [
+        116,
+        163,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 4750672709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 111,
+      "bbox": [
+        160,
+        145,
+        9,
+        15
+      ]
+    },
+    {
+      "id": 3431672709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 254,
+      "bbox": [
+        46,
+        128,
+        29,
+        30
+      ]
+    },
+    {
+      "id": 8357080709,
+      "image_id": 2894379708,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 358,
+      "bbox": [
+        53,
+        100,
+        26,
+        38
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

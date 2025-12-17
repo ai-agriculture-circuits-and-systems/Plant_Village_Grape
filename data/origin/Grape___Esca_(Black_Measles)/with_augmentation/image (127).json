@@ -1,0 +1,74 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 5322731189,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (127).JPG",
+      "size": 18129,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7208097191,
+      "image_id": 5322731189,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 6151,
+      "bbox": [
+        121,
+        8,
+        116,
+        222
+      ]
+    },
+    {
+      "id": 2945565191,
+      "image_id": 5322731189,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 7826,
+      "bbox": [
+        26,
+        0,
+        111,
+        170
+      ]
+    },
+    {
+      "id": 2001115191,
+      "image_id": 5322731189,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 109,
+      "bbox": [
+        72,
+        141,
+        17,
+        16
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000012,
+      "name": "Esca_(Black_Measles)",
+      "supercategory": "Grape"
+    }
+  ]
+}

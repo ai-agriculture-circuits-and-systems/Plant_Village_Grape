@@ -1,0 +1,126 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 4391372837,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (529).JPG",
+      "size": 19557,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7341294840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 7103,
+      "bbox": [
+        32,
+        27,
+        104,
+        203
+      ]
+    },
+    {
+      "id": 3951719840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 1010,
+      "bbox": [
+        140,
+        147,
+        42,
+        63
+      ]
+    },
+    {
+      "id": 8261606840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 122,
+      "bbox": [
+        132,
+        186,
+        10,
+        19
+      ]
+    },
+    {
+      "id": 6478706840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 3664,
+      "bbox": [
+        131,
+        47,
+        88,
+        136
+      ]
+    },
+    {
+      "id": 8344665840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 148,
+      "bbox": [
+        148,
+        129,
+        13,
+        18
+      ]
+    },
+    {
+      "id": 2847249840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 1310,
+      "bbox": [
+        122,
+        28,
+        67,
+        48
+      ]
+    },
+    {
+      "id": 2709359840,
+      "image_id": 4391372837,
+      "category_id": 1000000012,
+      "segmentation": [],
+      "area": 105,
+      "bbox": [
+        180,
+        46,
+        13,
+        12
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000012,
+      "name": "Esca_(Black_Measles)",
+      "supercategory": "Grape"
+    }
+  ]
+}

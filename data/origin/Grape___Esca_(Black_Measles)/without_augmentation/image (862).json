@@ -1,0 +1,107 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 164.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Msls 1852.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 3674590628,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (862).JPG",
+      "size": 14189,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Msls 1852.JPG",
+      "pvc_filename": "a4b05803-14e4-4551-acb5-ace444f7dac4___FAM_B.Msls 1852.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2354667637,
+      "image_id": 3674590628,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 5921,
+      "bbox": [
+        144,
+        67,
+        96,
+        156
+      ]
+    },
+    {
+      "id": 8515517637,
+      "image_id": 3674590628,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 110,
+      "bbox": [
+        75,
+        144,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 4554137637,
+      "image_id": 3674590628,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 106,
+      "bbox": [
+        54,
+        74,
+        17,
+        12
+      ]
+    },
+    {
+      "id": 2848726637,
+      "image_id": 3674590628,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 1224,
+      "bbox": [
+        24,
+        10,
+        50,
+        60
+      ]
+    },
+    {
+      "id": 9032832637,
+      "image_id": 3674590628,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 785,
+      "bbox": [
+        169,
+        22,
+        61,
+        41
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000012,
+      "name": "Esca_(Black_Measles)",
+      "supercategory": "Grape"
+    }
+  ]
+}

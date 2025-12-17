@@ -1,0 +1,113 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 4143100104,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (259).JPG",
+      "size": 17157,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1870318105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 4353,
+      "bbox": [
+        86,
+        64,
+        159,
+        168
+      ]
+    },
+    {
+      "id": 4042664105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 108,
+      "bbox": [
+        82,
+        207,
+        14,
+        17
+      ]
+    },
+    {
+      "id": 7932739105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 2426,
+      "bbox": [
+        56,
+        108,
+        62,
+        100
+      ]
+    },
+    {
+      "id": 1979340105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 211,
+      "bbox": [
+        155,
+        108,
+        26,
+        28
+      ]
+    },
+    {
+      "id": 6163479105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 478,
+      "bbox": [
+        95,
+        35,
+        52,
+        67
+      ]
+    },
+    {
+      "id": 2330984105,
+      "image_id": 4143100104,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 226,
+      "bbox": [
+        191,
+        47,
+        23,
+        30
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

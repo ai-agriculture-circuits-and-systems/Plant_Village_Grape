@@ -1,0 +1,87 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 8933098184,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (273).JPG",
+      "size": 18025,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7518544186,
+      "image_id": 8933098184,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 105,
+      "bbox": [
+        169,
+        188,
+        17,
+        12
+      ]
+    },
+    {
+      "id": 7003770186,
+      "image_id": 8933098184,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 12085,
+      "bbox": [
+        24,
+        0,
+        200,
+        145
+      ]
+    },
+    {
+      "id": 6223247186,
+      "image_id": 8933098184,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 110,
+      "bbox": [
+        202,
+        80,
+        18,
+        14
+      ]
+    },
+    {
+      "id": 4755656186,
+      "image_id": 8933098184,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 236,
+      "bbox": [
+        33,
+        33,
+        37,
+        30
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

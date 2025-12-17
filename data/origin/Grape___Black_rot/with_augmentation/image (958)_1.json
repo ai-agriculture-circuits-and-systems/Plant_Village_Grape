@@ -1,0 +1,74 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 6774887538,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (958).JPG",
+      "size": 13725,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8019035540,
+      "image_id": 6774887538,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 10444,
+      "bbox": [
+        14,
+        36,
+        131,
+        201
+      ]
+    },
+    {
+      "id": 5033549540,
+      "image_id": 6774887538,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 718,
+      "bbox": [
+        161,
+        146,
+        52,
+        44
+      ]
+    },
+    {
+      "id": 1797772540,
+      "image_id": 6774887538,
+      "category_id": 1000000011,
+      "segmentation": [],
+      "area": 4665,
+      "bbox": [
+        145,
+        39,
+        85,
+        105
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}

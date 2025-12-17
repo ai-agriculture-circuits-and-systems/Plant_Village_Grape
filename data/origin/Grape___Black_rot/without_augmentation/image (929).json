@@ -1,0 +1,224 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 255.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Rot 3571.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 4025003007,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (929).JPG",
+      "size": 20300,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Rot 3571.JPG",
+      "pvc_filename": "c70df019-6020-47a8-9b69-891a4f4d707b___FAM_B.Rot 3571.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2519627017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 743,
+      "bbox": [
+        118,
+        188,
+        39,
+        53
+      ]
+    },
+    {
+      "id": 5649372017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 306,
+      "bbox": [
+        164,
+        176,
+        32,
+        30
+      ]
+    },
+    {
+      "id": 3466598017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 125,
+      "bbox": [
+        110,
+        182,
+        14,
+        20
+      ]
+    },
+    {
+      "id": 2627295017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 118,
+      "bbox": [
+        145,
+        166,
+        11,
+        27
+      ]
+    },
+    {
+      "id": 4512607017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 128,
+      "bbox": [
+        70,
+        169,
+        21,
+        13
+      ]
+    },
+    {
+      "id": 6277586017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 153,
+      "bbox": [
+        132,
+        152,
+        28,
+        17
+      ]
+    },
+    {
+      "id": 3586884017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 142,
+      "bbox": [
+        210,
+        145,
+        25,
+        12
+      ]
+    },
+    {
+      "id": 6489857017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 3073,
+      "bbox": [
+        14,
+        50,
+        105,
+        102
+      ]
+    },
+    {
+      "id": 4458979017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 124,
+      "bbox": [
+        207,
+        128,
+        29,
+        14
+      ]
+    },
+    {
+      "id": 1223712017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 236,
+      "bbox": [
+        204,
+        85,
+        31,
+        24
+      ]
+    },
+    {
+      "id": 5799066017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 180,
+      "bbox": [
+        169,
+        68,
+        32,
+        24
+      ]
+    },
+    {
+      "id": 4480578017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 1592,
+      "bbox": [
+        73,
+        0,
+        146,
+        66
+      ]
+    },
+    {
+      "id": 5965284017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 414,
+      "bbox": [
+        185,
+        36,
+        46,
+        28
+      ]
+    },
+    {
+      "id": 4946356017,
+      "image_id": 4025003007,
+      "category_id": 2000000011,
+      "segmentation": [],
+      "area": 1068,
+      "bbox": [
+        22,
+        15,
+        68,
+        40
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000011,
+      "name": "Black_rot",
+      "supercategory": "Grape"
+    }
+  ]
+}
