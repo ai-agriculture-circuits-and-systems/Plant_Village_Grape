@@ -1,0 +1,152 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 2418964497,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (37).JPG",
+      "size": 15030,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9207101500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 1239,
+      "bbox": [
+        80,
+        180,
+        102,
+        58
+      ]
+    },
+    {
+      "id": 4883002500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 7619,
+      "bbox": [
+        0,
+        28,
+        87,
+        179
+      ]
+    },
+    {
+      "id": 2110671500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 228,
+      "bbox": [
+        144,
+        166,
+        13,
+        37
+      ]
+    },
+    {
+      "id": 4406081500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 278,
+      "bbox": [
+        60,
+        70,
+        41,
+        23
+      ]
+    },
+    {
+      "id": 8034567500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 101,
+      "bbox": [
+        235,
+        60,
+        9,
+        24
+      ]
+    },
+    {
+      "id": 1620218500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 104,
+      "bbox": [
+        126,
+        57,
+        21,
+        23
+      ]
+    },
+    {
+      "id": 8341338500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 150,
+      "bbox": [
+        149,
+        34,
+        9,
+        25
+      ]
+    },
+    {
+      "id": 1548661500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 104,
+      "bbox": [
+        168,
+        27,
+        23,
+        15
+      ]
+    },
+    {
+      "id": 9409901500,
+      "image_id": 2418964497,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 393,
+      "bbox": [
+        42,
+        9,
+        72,
+        14
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000014,
+      "name": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "supercategory": "Grape"
+    }
+  ]
+}

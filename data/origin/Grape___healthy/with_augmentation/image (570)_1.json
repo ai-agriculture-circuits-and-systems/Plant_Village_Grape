@@ -1,0 +1,152 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 2061471652,
+      "width": 204,
+      "height": 204,
+      "file_name": "image (570).JPG",
+      "size": 9517,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3005731653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 164,
+      "bbox": [
+        0,
+        185,
+        26,
+        19
+      ]
+    },
+    {
+      "id": 1307389653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 161,
+      "bbox": [
+        59,
+        195,
+        41,
+        9
+      ]
+    },
+    {
+      "id": 5726069653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 342,
+      "bbox": [
+        103,
+        163,
+        42,
+        33
+      ]
+    },
+    {
+      "id": 2626863653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 165,
+      "bbox": [
+        0,
+        123,
+        15,
+        17
+      ]
+    },
+    {
+      "id": 8024493653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 512,
+      "bbox": [
+        160,
+        96,
+        40,
+        39
+      ]
+    },
+    {
+      "id": 9970281653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 369,
+      "bbox": [
+        0,
+        69,
+        56,
+        34
+      ]
+    },
+    {
+      "id": 2018871653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 130,
+      "bbox": [
+        179,
+        69,
+        21,
+        27
+      ]
+    },
+    {
+      "id": 5410896653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 123,
+      "bbox": [
+        160,
+        55,
+        26,
+        11
+      ]
+    },
+    {
+      "id": 9956836653,
+      "image_id": 2061471652,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 172,
+      "bbox": [
+        0,
+        4,
+        23,
+        27
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

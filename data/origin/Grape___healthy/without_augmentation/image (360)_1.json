@@ -1,0 +1,103 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {}
+  },
+  "images": [
+    {
+      "id": 1883627462,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (360).JPG",
+      "size": 14268,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "Mt.N.V_HL 6158.JPG",
+      "pvc_filename": "d232a29e-e702-4b4e-b568-f022ffd375c4___Mt.N.V_HL 6158.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9655585469,
+      "image_id": 1883627462,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 114,
+      "bbox": [
+        19,
+        247,
+        20,
+        9
+      ]
+    },
+    {
+      "id": 1272025469,
+      "image_id": 1883627462,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 213,
+      "bbox": [
+        22,
+        165,
+        34,
+        30
+      ]
+    },
+    {
+      "id": 6016294469,
+      "image_id": 1883627462,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 1040,
+      "bbox": [
+        3,
+        68,
+        70,
+        72
+      ]
+    },
+    {
+      "id": 9472465469,
+      "image_id": 1883627462,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 130,
+      "bbox": [
+        82,
+        116,
+        23,
+        12
+      ]
+    },
+    {
+      "id": 7033269469,
+      "image_id": 1883627462,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 346,
+      "bbox": [
+        75,
+        16,
+        49,
+        34
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 162.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_L.Blight 4572.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 6079977833,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (729).JPG",
+      "size": 16313,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_L.Blight 4572.JPG",
+      "pvc_filename": "afa1aa52-eed2-47a3-9935-ee74531d376d___FAM_L.Blight 4572.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2867721842,
+      "image_id": 6079977833,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 9259,
+      "bbox": [
+        17,
+        19,
+        231,
+        234
+      ]
+    },
+    {
+      "id": 6300307842,
+      "image_id": 6079977833,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 103,
+      "bbox": [
+        139,
+        113,
+        14,
+        13
+      ]
+    },
+    {
+      "id": 5366804842,
+      "image_id": 6079977833,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 113,
+      "bbox": [
+        214,
+        104,
+        12,
+        15
+      ]
+    },
+    {
+      "id": 7085976842,
+      "image_id": 6079977833,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 108,
+      "bbox": [
+        18,
+        71,
+        11,
+        20
+      ]
+    },
+    {
+      "id": 7573013842,
+      "image_id": 6079977833,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 105,
+      "bbox": [
+        117,
+        66,
+        14,
+        16
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000014,
+      "name": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "supercategory": "Grape"
+    }
+  ]
+}

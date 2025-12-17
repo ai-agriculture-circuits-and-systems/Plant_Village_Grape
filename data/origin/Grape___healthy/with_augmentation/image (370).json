@@ -1,0 +1,113 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 4194345723,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (370).JPG",
+      "size": 15932,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3925875724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 569,
+      "bbox": [
+        187,
+        74,
+        43,
+        60
+      ]
+    },
+    {
+      "id": 5441182724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 140,
+      "bbox": [
+        107,
+        46,
+        14,
+        23
+      ]
+    },
+    {
+      "id": 4175871724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 130,
+      "bbox": [
+        11,
+        43,
+        18,
+        21
+      ]
+    },
+    {
+      "id": 5545239724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 620,
+      "bbox": [
+        135,
+        8,
+        41,
+        54
+      ]
+    },
+    {
+      "id": 9037762724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 261,
+      "bbox": [
+        110,
+        0,
+        20,
+        40
+      ]
+    },
+    {
+      "id": 6865130724,
+      "image_id": 4194345723,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 236,
+      "bbox": [
+        64,
+        2,
+        48,
+        30
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}
