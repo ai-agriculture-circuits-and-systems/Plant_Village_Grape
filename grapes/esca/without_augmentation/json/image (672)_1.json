@@ -1,0 +1,81 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 309.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Msls 4347.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 5194137241,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (672).JPG",
+      "size": 20326,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Msls 4347.JPG",
+      "pvc_filename": "3374a5c7-85b1-44a7-92a5-acf497aa3803___FAM_B.Msls 4347.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8683838251,
+      "image_id": 5194137241,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 4942,
+      "bbox": [
+        97,
+        52,
+        134,
+        189
+      ]
+    },
+    {
+      "id": 1200324251,
+      "image_id": 5194137241,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 2286,
+      "bbox": [
+        34,
+        59,
+        96,
+        104
+      ]
+    },
+    {
+      "id": 4556935251,
+      "image_id": 5194137241,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 188,
+      "bbox": [
+        120,
+        31,
+        22,
+        24
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000012,
+      "name": "Esca_(Black_Measles)",
+      "supercategory": "Grape"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 7490680425,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (306).JPG",
+      "size": 19130,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 6069336428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 766,
+      "bbox": [
+        93,
+        190,
+        148,
+        62
+      ]
+    },
+    {
+      "id": 4833639428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 185,
+      "bbox": [
+        27,
+        177,
+        52,
+        37
+      ]
+    },
+    {
+      "id": 5624565428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 1106,
+      "bbox": [
+        53,
+        70,
+        71,
+        96
+      ]
+    },
+    {
+      "id": 8172936428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 156,
+      "bbox": [
+        235,
+        89,
+        15,
+        55
+      ]
+    },
+    {
+      "id": 1090797428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 250,
+      "bbox": [
+        101,
+        39,
+        17,
+        31
+      ]
+    },
+    {
+      "id": 8277284428,
+      "image_id": 7490680425,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 195,
+      "bbox": [
+        186,
+        32,
+        26,
+        30
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {}
+  },
+  "images": [
+    {
+      "id": 1246439654,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (128).JPG",
+      "size": 16810,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "Mt.N.V_HL 8956.JPG",
+      "pvc_filename": "29ffbe00-4f75-496b-8bb5-dc1be1eb73b3___Mt.N.V_HL 8956.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2541102665,
+      "image_id": 1246439654,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 349,
+      "bbox": [
+        80,
+        201,
+        79,
+        35
+      ]
+    },
+    {
+      "id": 7068657665,
+      "image_id": 1246439654,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 700,
+      "bbox": [
+        17,
+        96,
+        61,
+        113
+      ]
+    },
+    {
+      "id": 3567387665,
+      "image_id": 1246439654,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 210,
+      "bbox": [
+        18,
+        42,
+        29,
+        54
+      ]
+    },
+    {
+      "id": 7421937665,
+      "image_id": 1246439654,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 588,
+      "bbox": [
+        111,
+        16,
+        44,
+        70
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

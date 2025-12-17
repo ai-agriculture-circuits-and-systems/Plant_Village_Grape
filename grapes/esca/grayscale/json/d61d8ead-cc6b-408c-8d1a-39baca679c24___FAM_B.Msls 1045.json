@@ -1,0 +1,146 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 56.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_B.Msls 1045.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 2441515732,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (1153).JPG",
+      "size": 20836,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_B.Msls 1045.JPG",
+      "pvc_filename": "d61d8ead-cc6b-408c-8d1a-39baca679c24___FAM_B.Msls 1045.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2015791738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 3093,
+      "bbox": [
+        101,
+        133,
+        117,
+        88
+      ]
+    },
+    {
+      "id": 9074103738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 206,
+      "bbox": [
+        83,
+        178,
+        24,
+        20
+      ]
+    },
+    {
+      "id": 1835786738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 1198,
+      "bbox": [
+        26,
+        130,
+        60,
+        59
+      ]
+    },
+    {
+      "id": 4962637738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 194,
+      "bbox": [
+        177,
+        117,
+        35,
+        26
+      ]
+    },
+    {
+      "id": 8035736738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 4530,
+      "bbox": [
+        40,
+        0,
+        206,
+        144
+      ]
+    },
+    {
+      "id": 1871147738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 2078,
+      "bbox": [
+        21,
+        41,
+        95,
+        61
+      ]
+    },
+    {
+      "id": 4222050738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 120,
+      "bbox": [
+        192,
+        89,
+        20,
+        11
+      ]
+    },
+    {
+      "id": 1380136738,
+      "image_id": 2441515732,
+      "category_id": 2000000012,
+      "segmentation": [],
+      "area": 112,
+      "bbox": [
+        127,
+        63,
+        24,
+        19
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000012,
+      "name": "Esca_(Black_Measles)",
+      "supercategory": "Grape"
+    }
+  ]
+}

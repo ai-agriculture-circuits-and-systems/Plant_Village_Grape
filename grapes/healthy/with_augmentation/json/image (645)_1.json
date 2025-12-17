@@ -1,0 +1,74 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 7871662985,
+      "width": 204,
+      "height": 204,
+      "file_name": "image (645).JPG",
+      "size": 11143,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8749830986,
+      "image_id": 7871662985,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 264,
+      "bbox": [
+        126,
+        120,
+        37,
+        13
+      ]
+    },
+    {
+      "id": 5254830986,
+      "image_id": 7871662985,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 442,
+      "bbox": [
+        61,
+        6,
+        85,
+        42
+      ]
+    },
+    {
+      "id": 7126224986,
+      "image_id": 7871662985,
+      "category_id": 1000000013,
+      "segmentation": [],
+      "area": 122,
+      "bbox": [
+        16,
+        14,
+        47,
+        19
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

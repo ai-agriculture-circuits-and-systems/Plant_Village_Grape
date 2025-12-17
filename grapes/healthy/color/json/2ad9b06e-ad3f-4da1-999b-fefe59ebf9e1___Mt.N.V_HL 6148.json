@@ -1,0 +1,116 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {}
+  },
+  "images": [
+    {
+      "id": 1640125118,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (25).JPG",
+      "size": 11428,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "Mt.N.V_HL 6148.JPG",
+      "pvc_filename": "2ad9b06e-ad3f-4da1-999b-fefe59ebf9e1___Mt.N.V_HL 6148.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 5221137124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 363,
+      "bbox": [
+        88,
+        220,
+        48,
+        20
+      ]
+    },
+    {
+      "id": 4622609124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 164,
+      "bbox": [
+        145,
+        227,
+        69,
+        9
+      ]
+    },
+    {
+      "id": 3367229124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 2390,
+      "bbox": [
+        193,
+        55,
+        61,
+        144
+      ]
+    },
+    {
+      "id": 6725453124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 277,
+      "bbox": [
+        23,
+        80,
+        42,
+        32
+      ]
+    },
+    {
+      "id": 3895485124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 1550,
+      "bbox": [
+        66,
+        20,
+        101,
+        86
+      ]
+    },
+    {
+      "id": 7683651124,
+      "image_id": 1640125118,
+      "category_id": 2000000013,
+      "segmentation": [],
+      "area": 178,
+      "bbox": [
+        168,
+        27,
+        34,
+        34
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000013,
+      "name": "healthy",
+      "supercategory": "Grape"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "no_augmentation",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "leaf_info": {
+      "leaf_number": 57.0,
+      "source": "plant_village_classification",
+      "original_filename": "FAM_L.Blight 1543.JPG"
+    }
+  },
+  "images": [
+    {
+      "id": 9008943292,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (764).JPG",
+      "size": 18401,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "original_filename": "FAM_L.Blight 1543.JPG",
+      "pvc_filename": "b204930f-4383-495d-b3b9-068fc4c51d56___FAM_L.Blight 1543.JPG"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1746151302,
+      "image_id": 9008943292,
+      "category_id": 2000000014,
+      "segmentation": [],
+      "area": 37079,
+      "bbox": [
+        0,
+        13,
+        256,
+        243
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2000000014,
+      "name": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "supercategory": "Grape"
+    }
+  ]
+}

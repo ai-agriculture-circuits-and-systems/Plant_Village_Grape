@@ -1,0 +1,113 @@
+{
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 6210104122,
+      "width": 256,
+      "height": 256,
+      "file_name": "image (815).JPG",
+      "size": 22818,
+      "format": "JPG",
+      "url": "",
+      "hash": "",
+      "status": "success"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8422456124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 25535,
+      "bbox": [
+        0,
+        0,
+        256,
+        254
+      ]
+    },
+    {
+      "id": 6371711124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 138,
+      "bbox": [
+        179,
+        151,
+        14,
+        22
+      ]
+    },
+    {
+      "id": 5882043124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 162,
+      "bbox": [
+        239,
+        95,
+        10,
+        49
+      ]
+    },
+    {
+      "id": 4578169124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 386,
+      "bbox": [
+        145,
+        90,
+        28,
+        36
+      ]
+    },
+    {
+      "id": 4227683124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 191,
+      "bbox": [
+        176,
+        70,
+        33,
+        17
+      ]
+    },
+    {
+      "id": 5065311124,
+      "image_id": 6210104122,
+      "category_id": 1000000014,
+      "segmentation": [],
+      "area": 111,
+      "bbox": [
+        162,
+        44,
+        25,
+        29
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1000000014,
+      "name": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "supercategory": "Grape"
+    }
+  ]
+}
