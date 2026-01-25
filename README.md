@@ -1,47 +1,63 @@
 # Plant Village Grape
 
-[![DOI](https://img.shields.io/badge/DOI-pending-lightgrey)](#citation)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](#changelog)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?logo=semver&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape)
+[![GitHub stars](https://img.shields.io/github/stars/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Stars&color=orange&labelColor=orange&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape)
+[![GitHub forks](https://img.shields.io/github/forks/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Forks&color=yellow&labelColor=yellow&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape)
+[![GitHub watchers](https://img.shields.io/github/watchers/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Watchers&color=cyan&labelColor=cyan&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape)
+[![GitHub issues](https://img.shields.io/github/issues/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Issues&color=red&labelColor=red&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/your-repo/Plant_Village_Grape?style=flat&logo=github&label=PRs&color=lime&labelColor=lime&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Contributors&color=purple&labelColor=purple&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/your-repo/Plant_Village_Grape?style=flat&logo=github&label=Last%20Commit&color=gray&labelColor=gray&logoColor=white)](https://github.com/your-repo/Plant_Village_Grape/commits)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.xxxxx-indigo?logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.xxxxx)
 
 Grape leaf images labeled for disease classification. This dataset contains images of grape leaves with various diseases and healthy samples. This folder now follows the standardized layout used by `acfr-multifruit-2016`.
 
-- Project page: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
-- Issue tracker: use this repo
+- **Project page**: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
+- **Original paper**: `https://arxiv.org/abs/1511.08060`
+- **Dataset repository**: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
 
 ## TL;DR
-- Task: classification (five classes: `healthy`, `black_rot`, `esca`, `leaf_blight`, `background`)
-- Modality: RGB
-- Platform: handheld/field
-- Real/Synthetic: real
-- Images: 10,410 total
-- Classes: 5
-- Resolution: 256×256 pixels
-- Annotations: COCO JSON (image-level via full-image boxes or object detection boxes)
-- License: CC BY 4.0 (see License)
-- Citation: see below
 
-## Table of contents
+- **Task**: Classification, Object Detection
+- **Modality**: RGB
+- **Platform**: Ground
+- **Real/Synthetic**: Real
+- **Images**: 10,410 labeled images
+- **Classes**: 5 categories
+  - `healthy`: 846 images
+  - `black_rot`: 2,360 images
+  - `esca`: 2,766 images
+  - `leaf_blight`: 2,152 images
+  - `background`: 2,286 images
+- **Resolution**: 256×256 pixels
+- **Annotations**: COCO JSON (image-level via full-image boxes or object detection boxes)
+- **Total annotations**: 10,410 (one per image for classification)
+- **License**: CC BY 4.0 (see LICENSE)
+- **Citation**: See below
+
+## Table of Contents
 - [Download](#download)
-- [Dataset structure](#dataset-structure)
-- [Sample images](#sample-images)
-- [Annotation schema](#annotation-schema)
-- [Stats and splits](#stats-and-splits)
-- [Quick start](#quick-start)
-- [Evaluation and baselines](#evaluation-and-baselines)
-- [Datasheet (data card)](#datasheet-data-card)
-- [Known issues and caveats](#known-issues-and-caveats)
+- [Dataset Structure](#dataset-structure)
+- [Sample Images](#sample-images)
+- [Annotation Schema](#annotation-schema)
+- [Stats and Splits](#stats-and-splits)
+- [Quick Start](#quick-start)
+- [Evaluation and Baselines](#evaluation-and-baselines)
+- [Datasheet (Data Card)](#datasheet-data-card)
+- [Known Issues and Caveats](#known-issues-and-caveats)
 - [License](#license)
 - [Citation](#citation)
 - [Changelog](#changelog)
 - [Contact](#contact)
 
 ## Download
-- Original dataset: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
-- This repo hosts structure and conversion scripts only; place the downloaded folders under this directory.
-- Local license file: see `LICENSE` (Creative Commons Attribution 4.0).
 
-## Dataset structure
+- **Original dataset**: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
+- **This repository**: Hosts structure and conversion scripts only; place the downloaded folders under this directory.
+- **Local license file**: See `LICENSE` (CC BY 4.0).
+
+## Dataset Structure
 
 This dataset follows the standardized dataset structure specification with subcategory organization:
 
@@ -88,7 +104,7 @@ Plant_Village_Grape/
 
 - Splits: `grapes/{subcategory}/sets/train.txt`, `grapes/{subcategory}/sets/val.txt`, `grapes/{subcategory}/sets/test.txt` list image basenames (no extension). If missing, all images are used.
 
-## Sample images
+## Sample Images
 
 Below are example images for each category in this dataset. Paths are relative to this README location.
 
@@ -134,25 +150,14 @@ Below are example images for each category in this dataset. Paths are relative t
   </tr>
 </table>
 
-## Annotation schema
+## Annotation Schema
 
-### CSV format
-
-Each image has a corresponding CSV file in `grapes/{subcategory}/csv/{image_name}.csv`:
-
-```csv
-#item,x,y,width,height,label
-0,83,218,40,38,1
-1,158,180,30,35,1
-```
-
-- Columns: `item`, `x`, `y`, `width`, `height`, `label`
-- Coordinates: `(x, y)` is top-left corner, `width` and `height` in pixels
-- Label: category ID (1=healthy, 2=black_rot, 3=esca, 4=leaf_blight, 0=background)
-
-### COCO format
-
-The COCO JSON files are generated by `scripts/convert_to_coco.py`:
+- **CSV per-image schema** (stored under `grapes/{subcategory}/csv/` folder):
+  - Columns: `item, x, y, width, height, label`
+  - Coordinates: `(x, y)` is top-left corner, `width` and `height` in pixels
+  - Label: category ID (1=healthy, 2=black_rot, 3=esca, 4=leaf_blight, 0=background)
+  
+- **COCO-style** (generated):
 
 ```json
 {
@@ -188,9 +193,7 @@ The COCO JSON files are generated by `scripts/convert_to_coco.py`:
 }
 ```
 
-### Label maps
-
-The `grapes/labelmap.json` file defines the category mapping:
+- **Label maps**: `grapes/labelmap.json` defines the category mapping:
 
 ```json
 [
@@ -202,7 +205,7 @@ The `grapes/labelmap.json` file defines the category mapping:
 ]
 ```
 
-## Stats and splits
+## Stats and Splits
 
 ### Image counts by category
 
@@ -227,36 +230,40 @@ Splits provided via `grapes/{subcategory}/sets/*.txt`. You may define your own s
 
 Note: The splits are distributed across all subcategories. Each subcategory has its own split files.
 
-## Quick start
+## Quick Start
 
 ### Using COCO API
 
 ```python
 from pycocotools.coco import COCO
-import matplotlib.pyplot as plt
+import json
 
-# Load annotations
+# Load COCO annotations
 coco = COCO('annotations/grapes_instances_train.json')
 
-# Get image IDs
+# Get all image IDs
 img_ids = coco.getImgIds()
-print(f"Number of images: {len(img_ids)}")
+print(f"Total images: {len(img_ids)}")
 
-# Get category IDs
+# Get all category IDs
 cat_ids = coco.getCatIds()
-print(f"Categories: {coco.loadCats(cat_ids)}")
+categories = [coco.loadCats([id])[0]['name'] for id in cat_ids]
+print(f"Categories: {categories}")
 
-# Load and display an image
+# Load a specific image and its annotations
 img_id = img_ids[0]
-img_info = coco.loadImgs(img_id)[0]
-ann_ids = coco.getAnnIds(imgIds=img_id)
+img_info = coco.loadImgs([img_id])[0]
+ann_ids = coco.getAnnIds(imgIds=[img_id])
 anns = coco.loadAnns(ann_ids)
 
 print(f"Image: {img_info['file_name']}")
+print(f"Size: {img_info['width']}x{img_info['height']}")
 print(f"Annotations: {len(anns)}")
 ```
 
 ### Converting to COCO format
+
+If you need to regenerate COCO annotations from CSV files:
 
 ```bash
 python scripts/convert_to_coco.py --root . --out annotations \
@@ -265,50 +272,61 @@ python scripts/convert_to_coco.py --root . --out annotations \
 
 ### Dependencies
 
-**Required:**
-- Python 3.7+
-- Pillow>=9.5
+**Required**:
+- `Pillow>=9.5` (for image processing)
 
-**Optional (for COCO API):**
-- pycocotools>=2.0.7
+**Optional**:
+- `pycocotools>=2.0.7` (for COCO API)
 
 Install with:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Evaluation and baselines
+## Evaluation and Baselines
 
-- **Task**: Multi-class classification
-- **Metrics**: Accuracy, Precision, Recall, F1-score
-- **Baselines**: (To be added)
+- **Primary metric**: 
+  - Classification: Accuracy, Precision, Recall, F1-score (per class and macro-averaged)
+  - Object Detection: mAP@[.50:.95], mAP@.50, mAP@.75
+- **Baseline results**: (to be added)
 
-## Datasheet (data card)
+## Datasheet (Data Card)
 
 ### Motivation
-This dataset was created to support research in plant disease detection and classification, specifically for grape leaf diseases. It is part of the larger Plant Village dataset collection.
+
+This dataset was created to support research in plant disease detection and classification, specifically for grape leaf diseases, which is crucial for automated disease detection in agricultural applications.
 
 ### Composition
+
+The dataset consists of:
 - **Image types**: RGB images of grape leaves
 - **Categories**: 5 classes (healthy, black_rot, esca, leaf_blight, background)
-- **Image format**: JPG
-- **Resolution**: 256×256 pixels
+- **Annotation format**: Image-level classification annotations (via full-image bounding boxes) and object-level detection annotations
 
-### Collection process
-Images were collected from various sources and processed to a standardized format. Some images may have been augmented or preprocessed.
+### Collection Process
+
+- **Source**: Images collected from various sources and processed to a standardized format
+- **Annotation tool**: Images annotated for classification and detection tasks
+- **Validation**: Images resized to 256×256 pixels
 
 ### Preprocessing
+
 - Images resized to 256×256 pixels
 - Annotations converted to standardized CSV and COCO formats
 - Dataset reorganized to follow standard structure
 
 ### Distribution
-The dataset is available on Kaggle under the Plant Village dataset collection.
+
+- Dataset is distributed under CC BY 4.0 license
+- Original data available on Kaggle under the Plant Village dataset collection
+- This repository provides standardized structure and conversion scripts
 
 ### Maintenance
-This standardized version is maintained in this repository. For original dataset updates, refer to the Kaggle source.
 
-## Known issues and caveats
+- Dataset structure has been standardized according to the dataset structure specification
+- COCO format annotations are generated from CSV files using the provided conversion script
+
+## Known Issues and Caveats
 
 1. **File naming**: Original images were renamed to `image (N).JPG` format during processing. Original filenames are preserved in JSON annotations as `pvc_filename` field.
 
@@ -322,11 +340,11 @@ This standardized version is maintained in this repository. For original dataset
 
 ## License
 
-This dataset is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-See `LICENSE` file for full license text.
+This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 Check the original dataset terms and cite appropriately.
+
+See `LICENSE` file for full license text.
 
 ## Citation
 
@@ -354,14 +372,10 @@ Original Plant Village dataset citation:
 
 ## Changelog
 
-- **V1.0.0** (2025-12-14): Initial standardized structure and COCO conversion utility
-  - Reorganized dataset to follow standard structure with subcategory organization
-  - Created CSV annotations from JSON files
-  - Generated COCO format annotations
-  - Added conversion scripts and documentation
+- **V1.0.0** (2025): Initial standardized structure and COCO conversion utility
 
 ## Contact
 
-- **Maintainers**: Dataset standardization team
-- **Original authors**: Plant Village project
+- **Maintainers**: Open to contributions via issue tracker
+- **Original authors**: Plant Village Contributors (David Hughes, Marcel Salathé)
 - **Source**: `https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset`
